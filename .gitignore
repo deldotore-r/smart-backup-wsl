@@ -1,0 +1,28 @@
+# Backups gerados pelo script (caso teste localmente)
+*.tar.gz
+*.tgz
+backups/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do sistema
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração local/pessoal
+config.local
+*.local
+
+# Diretórios de teste
+test/
+tmp/
+temp/
+
+# Arquivos do editor
+.vscode/
+.idea/
+*.sublime-*
