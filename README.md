@@ -32,7 +32,7 @@ Este script nasceu da necessidade de criar backups diários eficientes para ambi
 
 3. **Dar permissão de execução:**
 ```bash
-   chmod +x backup.sh
+   chmod +x script_backup.sh
 ```
 
 4. **Executar manualmente:**
@@ -84,4 +84,5 @@ Para adicionar novas pastas (como `venv` ou `target`), basta editar a seção de
 
 
 > "A base de um bom profissional de Cloud/DevOps é o domínio dos fundamentos. Antes de automatizar na nuvem, garanta a resiliência do seu ambiente local."
+
 
