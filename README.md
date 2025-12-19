@@ -24,7 +24,7 @@ Este script nasceu da necessidade de criar backups diários eficientes para ambi
 
 2. **Configurar o script:**
    
-   Abra o arquivo `backup.sh` e ajuste as variáveis de diretório:
+   Abra o arquivo `script_backup.sh` e ajuste as variáveis de diretório:
 ```bash
    SOURCE_DIR="$HOME/meus-projetos"
    BACKUP_DIR="$HOME/backups"
@@ -84,3 +84,4 @@ Para adicionar novas pastas (como `venv` ou `target`), basta editar a seção de
 
 
 > "A base de um bom profissional de Cloud/DevOps é o domínio dos fundamentos. Antes de automatizar na nuvem, garanta a resiliência do seu ambiente local."
+
