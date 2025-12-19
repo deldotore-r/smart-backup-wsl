@@ -37,7 +37,7 @@ Este script nasceu da necessidade de criar backups diários eficientes para ambi
 
 4. **Executar manualmente:**
 ```bash
-   ./backup.sh
+   ./script_backup.sh
 ```
 
 ## ⏰ Automatizando com Cron (Recomendado)
@@ -84,5 +84,6 @@ Para adicionar novas pastas (como `venv` ou `target`), basta editar a seção de
 
 
 > "A base de um bom profissional de Cloud/DevOps é o domínio dos fundamentos. Antes de automatizar na nuvem, garanta a resiliência do seu ambiente local."
+
 
 
