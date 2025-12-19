@@ -60,7 +60,7 @@ No editor que abrir, adicione a seguinte linha ao final do arquivo:
 
 # Ex.: Todos os dias úteis, às 13h00
 
-0 13 * * 1-5 /bin/bash /caminho/completo/para/backup.sh
+0 13 * * 1-5 /bin/bash /caminho/completo/para/script_backup.sh
 ```
 
 **Dica:** Use o caminho absoluto para o script. 
@@ -84,6 +84,7 @@ Para adicionar novas pastas (como `venv` ou `target`), basta editar a seção de
 
 
 > "A base de um bom profissional de Cloud/DevOps é o domínio dos fundamentos. Antes de automatizar na nuvem, garanta a resiliência do seu ambiente local."
+
 
 
 
