@@ -18,7 +18,7 @@ Este script nasceu da necessidade de criar backups diários eficientes para ambi
 
 1. **Clonar o repositório:**
 ```bash
-   git clone https://github.com/seu-usuario/nome-do-repo.git
+   git clone https://github.com/deldotore-r/smart-backup-wsl.git
    cd nome-do-repo
 ```
 
@@ -81,5 +81,6 @@ O script já vem configurado para ignorar:
 Para adicionar novas pastas (como `venv` ou `target`), basta editar a seção de `tar` no script adicionando a flag `--exclude='nome-da-pasta'`.
 
 ---
+
 
 > "A base de um bom profissional de Cloud/DevOps é o domínio dos fundamentos. Antes de automatizar na nuvem, garanta a resiliência do seu ambiente local."
