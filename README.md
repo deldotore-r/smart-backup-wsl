@@ -83,7 +83,8 @@ Para adicionar novas pastas (como `venv` ou `target`), basta editar a seção de
 ---
 
 
-> "A base de um bom profissional de Cloud/DevOps é o domínio dos fundamentos. Antes de automatizar na nuvem, garanta a resiliência do seu ambiente local."
+Projeto focado em automação local confiável, aplicando fundamentos essenciais de Linux e Shell Script usados rotineiramente em ambientes SRE e DevOps.
+
 
 
 
