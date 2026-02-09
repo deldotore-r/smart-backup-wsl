@@ -1,24 +1,19 @@
-# 💾 Smart Backup for WSL/Linux
-> Automação inteligente de backups para ambientes de desenvolvimento.
+# Smart Backup for WSL/Linux
+> Intelligent backup automation for development environments.
 
-Este script em Shell foi desenvolvido para solucionar o problema de backups volumosos em ambientes de lab e desenvolvimento, onde pastas de dependências (como `node_modules` ou `.terraform`) ocupam espaço desnecessário nos arquivos de arquivamento.
+This Shell script was developed to address the problem of large backups in lab and development environments, where dependency directories (such as `node_modules` or `.terraform`) consume unnecessary space in archive files.
 
-## 🚀 Diferenciais Técnicos
-* **Exclusão Inteligente:** Filtra automaticamente diretórios pesados e redundantes, reduzindo o tamanho do backup em até 95%.
-* **Logs de Execução:** Gera registros detalhados para auditoria e troubleshooting de falhas.
-* **Segurança:** Implementado com verificação de permissões de escrita e integridade de diretórios.
-* **Agendamento:** Totalmente compatível com `cron` para execuções periódicas sem intervenção manual.
+## Technical Highlights
+- **Smart Exclusion:** Automatically filters heavy and redundant directories, reducing backup size by up to 95%.
+- **Execution Logs:** Generates detailed logs for auditing and failure troubleshooting.
+- **Security:** Implemented with write-permission checks and directory integrity validation.
+- **Scheduling:** Fully compatible with `cron` for periodic, unattended executions.
 
-## 🛠️ Tecnologias
-* **Linguagem:** Bash (Shell Scripting)
-* **Ferramentas:** `tar`, `gzip`, `find`
-* **Sistema:** Linux / WSL (Windows Subsystem for Linux)
+## Technologies
+- **Language:** Bash (Shell Scripting)
+- **Tools:** `tar`, `gzip`, `find`
+- **System:** Linux / WSL (Windows Subsystem for Linux)
 
-## 📋 Como utilizar
-1. Clone o repositório.
-2. Dê permissão de execução ao script: `chmod +x backup.sh`.
-3. Configure as variáveis de origem e destino no cabeçalho do arquivo.
-4. Execute manualmente ou adicione à sua `crontab`.
-
----
-*Este projeto demonstra competências de automação Linux e otimização de storage, fundamentais para práticas de SRE.*
+## How to Use
+1. Clone the repository.
+2. Grant execution permission to
